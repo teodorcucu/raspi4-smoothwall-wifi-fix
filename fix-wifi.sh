@@ -5,7 +5,7 @@ mkdir /tmp/fix-wifi/
 cd /tmp/fix-wifi/
 echo -e
 echo -e "Cloning fixed hostapd.purple.conf from GitHub"
-wget https://raw.githubusercontent.com/teodorcucu/raspi4-smoothwall-wifi-fix/mai$
+wget https://raw.githubusercontent.com/teodorcucu/raspi4-smoothwall-wifi-fix/main/hostapd.purple.conf
 echo -e
 
 echo -e "CD in /etc/hostapd/"
