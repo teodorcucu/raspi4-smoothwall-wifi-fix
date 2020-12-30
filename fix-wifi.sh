@@ -9,8 +9,7 @@ https://github.com/teodorcucu/raspi4-smoothwall-wifi-fix/blob/main/hostapd.purpl
 
 echo -e "Backup the old hostapd.purple.conf as 
 hostapd.purple.conf.original"
-cp /etc/hostapd/hostapd.purple.conf 
-/etc/hostapd/hostapd.purple.conf.original
+cp /etc/hostapd/hostapd.purple.conf /etc/hostapd/hostapd.purple.conf.original
 
 echo -e "Remove the old hostapd.purple.conf"
 rm -rf /etc/hostapd/hostapd.purple.conf
