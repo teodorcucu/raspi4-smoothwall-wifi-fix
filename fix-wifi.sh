@@ -31,4 +31,10 @@ echo -e "Setting up PURPLE_WIFI Variable as eth2 in
 echo -e "PURPLE_WIFI=eth2" >>/var/smoothwall/ethernet/settings
 echo -e
 
+echo -e "Add /usr/sbin/wifi start purple to /etc/rc.d/rc.sysinit"
+cd /etc/rc.d/
+sed -i '$d' rc.sysinit
+echo -e "/usr/sbin/wifi start purple" >>/etc/rc.d/rc.sysinit
+echo -e "exit 0" >>/etc/rc.d/rc.sysinit
+echo -e
 echo -e "Done, reboot now"
