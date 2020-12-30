@@ -2,6 +2,7 @@
 
 echo -e "Creating tmp dir"
 mkdir /tmp/fix-wifi/
+cd /tmp/fix-wifi/
 
 echo -e "Cloning fixed hostapd.purple.conf from GitHub"
 wget 
