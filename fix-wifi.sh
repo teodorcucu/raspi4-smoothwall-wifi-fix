@@ -44,4 +44,4 @@ echo -e "/usr/sbin/wifi start purple" >>/etc/rc.d/rc.sysinit
 echo -e "exit 0" >>/etc/rc.d/rc.sysinit
 echo -e "${GREEN}DONE.${NOCOLOR}"
 echo -e
-echo -e "${GREEN} Reboot now!${NOCOLOR}"
+echo -e "${GREEN}Reboot now!${NOCOLOR}"
